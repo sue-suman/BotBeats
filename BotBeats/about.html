@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<style>
+    :root{
+        --pink: #46125c;
+        --violet: #9f6ea3;
+        --lightblack: #515C6F;
+        --white: #ffffff;
+        --darkwhite: #cecaca;
+        --pinkshadow: #ffcbdd;
+        --lightbshadow: rgba(0,0,0,0.15);
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    html {
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    .column {
+        float: left;
+        align-items: center;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 1px 10px 0px 10px;
+        margin-left: 100px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 7px;
+    }
+
+    .about-section {
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-decoration-style: double;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: rgb(183, 211, 229);
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #201f1f;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .button:hover {
+        background-color: #c287c7;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+<body>
+	<header>
+        <div class="flex-container">
+            <div class="header-left">
+                <ul>
+                    <li><a href="mailto:ishubhangi.jha25@gmail.com">shubhangi.jha25@gmail.com</a></li>
+                    <li><a href="tel:9988636720">9988636720</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="flex-container">
+            <div class="nav1-left">
+                <img src="/images/WhatsApp Image 2023-03-26 at 11.26.32 AM.jpeg" alt="" height="90px" width="89px">
+            </div>
+            <div class="nav1-right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="songs.html">SONG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+    <div class="about-section" style="height: 170px;color: #d3a3d7;padding: 40px;">
+        <h1>About Us :</h1>
+        <p>"BotBeats" that sound's like heartbeat. This implies how mind and heart is linked with music.</p>
+    </div>
+      
+    <h2 style="text-align:center; color: #efe8e8;text-decoration: underline;">Our Team</h2>
+    <div class="row" >
+        <div class="column">
+            <div class="card">
+                <img src="/images//WhatsApp Image 2023-03-26 at 10.58.26 PM.jpeg" alt="Shubhangi" style="width: 150px;">
+                <div class="container" >
+                    <h2>Shubhangi Jha</h2>
+                    <p class="title">Member</p>
+                    <p>The name of the project "BotBeats" is given by her. She worked on the website for background.She also made the Music player that mainly bind the site together. She also worked on project's presentation ppts and sypnosis. :) </p>
+                    <p>shubhangi.jha25@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+      
+        <div class="column">
+            <div class="card">
+                <img src="/images/SHRADHA_213018_02-02-23.jpeg" alt="Shradha" style="width: 155px;">
+                <div class="container">
+                    <h2>Shradha Suman</h2>
+                    <p class="title">Member</p>
+                    <p>Websites navbar and basic structure is made by her. She also made the chatbot part where you can search given music player song's related queries even using emojies that will also be responded accodingly. :) </p>
+                    <p>sonalsingh95460@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>    
+</html>

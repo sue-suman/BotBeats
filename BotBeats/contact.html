@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/style.css">
+<style >
+    h1{
+        display: block;
+        font-size: 34px;
+        padding: 50px;
+        color: rgb(210, 184, 241);
+    }
+    table{
+        align-items: center;
+        background-color: rgb(196, 177, 209);
+        color: black;
+        border-radius: 5px; 
+        border: box solid black;
+    }
+    th{
+        height: 60px;
+        width: 300px;
+        font-size: 20px;
+        border-radius: 5px; 
+    }
+    td{
+        height: 60px;
+        width: 300px;
+        font-size: 20px;
+        border-radius: 5px; 
+    }
+    input{
+        height: 55px;
+        width: 280px;
+        font-size: 20px;
+        opacity: .7;
+        border-radius: 3px; 
+    }
+    .submit{
+        background-color: rgb(8, 8, 7);
+        color: rgb(165, 234, 238);
+        border-radius: 10px;
+        border: box solid black;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="header-left">
+                <ul>
+                    <li><a href="mailto:ishubhangi.jha25@gmail.com">shubhangi.jha25@gmail.com</a></li>
+                    <li><a href="tel:9988636720">9988636720</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="flex-container">
+            <div class="nav1-left">
+                <img src="/images/WhatsApp Image 2023-03-26 at 11.26.32 AM.jpeg" alt="" height="90px" width="89px">
+            </div>
+            <div class="nav1-right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="songs.html">SONG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+    <h1 align="center">Contact form : :</h1>
+    <table rowspan="1"  cellspacing="1"  cellpadding="1" style=" margin-bottom: 6%;margin-left: 27%;">
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="name" placeholder="Enter your name"></td>
+        <tr>
+            <th>Phone no.</th>
+            <td><input type="number" name="number" placeholder="Enter your number"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="mail" name="email"  placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="address" name="address" placeholder="Enter your address"></td>
+        </tr>
+        <tr>
+            <th>Comment</th>
+            <td><textarea name="comment" rows="7" cols="23" placeholder="Feedback....." style="font-size: 23px; opacity:0.7;border-radius: 1px;"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit" name="sendButton"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
